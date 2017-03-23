@@ -1,0 +1,76 @@
+.series{
+    width:407px;
+    height: 95px; 
+}
+.glory{
+    width: 413.09px;
+    height: 119.8px;
+    }
+.text{
+    float: left;
+    width: 600px;
+    height: 534px;
+    margin: 15px;
+}
+.pics{
+    float: right;
+    width: 50%;
+    margin: 15px;
+}
+.dust{
+    width: 232px;
+    height: 161px;
+}
+.p1{
+    width: 38px;
+    height: 38px;
+}
+.d1{
+    width: 38px;
+    height: 38px;
+}
+.w1{
+    float: left;
+    width: 190px;
+    height: 50px;
+}
+.Terror{
+    width: 232px;
+    height: 161px;
+}
+.p2{
+    width: 38px;
+    height: 38px;
+}
+.d2{
+    width: 38px;
+    height: 38px;
+}
+.Wedding{
+    width: 232px;
+    height: 161px;
+}
+.p3{
+    width: 38px;
+    height: 38px;
+}
+.Amour{
+    width: 232px;
+    height: 161px;
+}
+.p4{
+    width: 38px;
+    height: 38px;
+}
+.Cinema{
+    width: 232px;
+    height: 161px;
+}
+.p5{
+    width: 38px;
+    height: 38px;
+}
+footer.mainFooter {
+    float: left;
+    bottom:0;
+}

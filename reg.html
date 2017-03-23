@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>註冊頁</title>
+        <link rel="stylesheet" type="text/css" href="reg.css">
+    </head>
+    <body>
+          <header>
+            <h1>報名表單</h1>
+          </header>
+           <form class="form" action="https://docs.google.com/forms/d/e/1FAIpQLScM4B6u7nOkNQqUOlSBn7fKXm5cjuno14nyCKRlA4XyjSY9Qg/formResponse" method="get">
+               <p>
+                    <label for="name">姓名</label>
+                    <input type="text" name="entry.1339495092" required="required" id="name">
+               </p>
+               <p>
+                    <label for="department">學院</label>
+                    <select name="entry.1944781450" required="required" id="department">
+                        <option value="">請選擇</option>
+                        <option value="文學院">文學院</option>
+                        <option value="理學院">理學院</option>
+                        <option value="商學院">商學院</option>
+                        <option value="法學院">法學院</option> 
+                        <option value="傳播學院">傳播學院</option>
+                        <option value="教育學院">教育學院</option>                       
+                        <option value="社會科學學院">社會科學學院</option>
+                        <option value="國際事務學院">國際事務學院</option>
+                        <option value="外國語文學院">外國語文學院</option>
+                    </select>
+               </p>
+               <p>
+                    <label for="phone">手機</label>
+                    <input type="text" name="entry.795504394" required="required" pattern="09[1-8][0-9]([\-|\s]?)[0-9]{3}\1[0-9]{3}" id="phone">
+               </p>
+               <p>
+                    <label for="email">email</label>
+                    <input type="email" name="entry.560282373" required="required" id="email">
+               </p>
+               <p>
+                    <label for="bday">生日</label>
+                    <input type="date" name="entry.324774019" id="bday">
+               </p>
+               <p>
+                    <input type="hidden" name="entry.189820201" id="sid" value="102101027">
+               </p>
+				<br>
+				<input type="submit" value="註冊">
+			</form>
+    </body>
+</html>
